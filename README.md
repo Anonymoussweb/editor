@@ -121,9 +121,4 @@ Persisted state:
 - Comment cards include avatar, author, timestamp, and ownership controls.
 - Mock API latency is intentionally random to mimic realistic network behavior.
 
-## 8. Future Improvements
-
-- Add proper inline comment anchoring decorations and thread replies.
-- Add optimistic UI rollback and error-state handling for sync failures.
-- Add integration tests for editor/comment/offline workflows.
-- Wire real-time provider (WebSocket/CRDT such as Y.js) for true multi-user collaboration.
+i also added admin for seeing all users and remove a user for this use name: admin then sign in
