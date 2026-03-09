@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project is a production-style frontend implementation of a collaborative document editor built with React, TypeScript, and Vite.  
+This is a collaborative document editor built with React, TypeScript, and Vite.  
 It supports role-based permissions, named user onboarding, real-time cross-window collaboration, ownership-based comments (add/edit/delete own), and offline queue/sync with a mock API.
 
 ## 2. Tech Stack
