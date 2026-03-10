@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project is a production-style frontend implementation of a collaborative document editor built with React, TypeScript, and Vite.  
+This is a collaborative document editor built with React, TypeScript, and Vite.  
 It supports role-based permissions, named user onboarding, real-time cross-window collaboration, ownership-based comments (add/edit/delete own), and offline queue/sync with a mock API.
 
 ## 2. Tech Stack
@@ -121,9 +121,4 @@ Persisted state:
 - Comment cards include avatar, author, timestamp, and ownership controls.
 - Mock API latency is intentionally random to mimic realistic network behavior.
 
-## 8. Future Improvements
-
-- Add proper inline comment anchoring decorations and thread replies.
-- Add optimistic UI rollback and error-state handling for sync failures.
-- Add integration tests for editor/comment/offline workflows.
-- Wire real-time provider (WebSocket/CRDT such as Y.js) for true multi-user collaboration.
+i also added admin for seeing all users and remove a user for this use name: admin then sign in
