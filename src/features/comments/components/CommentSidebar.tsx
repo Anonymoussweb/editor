@@ -20,7 +20,7 @@ export const CommentSidebar = ({
     </header>
     <div className="space-y-3 overflow-y-auto p-4">
       {comments.length === 0 ? (
-        <p className="text-sm text-slate-500">No comments yet. Select text and add one.</p>
+        <p className="text-sm text-slate-500">No comments yet. Select text from the text editor and then add comment.</p>
       ) : (
         comments.map((comment) => (
           <CommentItem
